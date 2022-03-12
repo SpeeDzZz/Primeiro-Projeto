@@ -1,0 +1,168 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-areas: "header" "article" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 380px 1fr 70px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+}
+
+h2{
+    color: var(--button-bg);
+    font-family: 'Roboto', sans-serif; 
+}
+
+header, article{
+    padding: 68px 136px;
+    grid-area: header;
+    background-color: var(--purple-bg);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.article{
+    padding: 10px 136px 50px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    padding: 40px 0px;
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+    background-color: aqua;
+}
+
+li, a{
+    display: inline-block;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+a:hover{
+    color: var(--dark-bg);
+}
+
+
+.n1{
+    border-left: 2px var(--green) solid;
+    padding-left: 5px;
+}
+
+.imgseta{
+    padding-left: 10px;
+    width: 15px;
+}
+
+article{
+    grid-area: article;
+    border-bottom: 3px#4fff4b solid ;
+}
+
+.vejamais{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.containermain{
+    padding-left: 90px;
+}
+
+.text{
+    padding-right: 100px;
+}
+
+.text-title{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    color: var(--button-bg);
+}
+
+.text-text{
+    font-size: 16px;
+    color: white;
+}
+
+.vejamais{
+    font-size: 16px;
+    color: var(--button-bg);
+}
+
+.ctwo {
+    flex-direction: row;
+    padding-right: 136px;
+}
+
+.cthree{
+    padding: 0px 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cthree > figure > img{
+    width: 300px;
+}
+
+input{
+    border: none;
+    background-color: var(--dark-bg);
+    width: 140px;
+    height: 30px;
+    border-radius: 4px 0px 0px 4px;
+    transition: all 0.3s linear;
+    outline: none;
+}
+
+button{
+    background-color: var(--button-bg);
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+}
+
+form{
+    display: flex;
+}
