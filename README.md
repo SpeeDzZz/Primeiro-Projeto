@@ -1,7 +1,7 @@
 # Primeiro-Projeto
 Primeiro projeto colocando tudo aprendido até o dia 12/03/2022
 
-Curso: Rocketseat
-projeto: Rocket Blog
-Dias para conclusão: 1
-Projeto sem media querry
+<h1>Rocketseat</h1>
+<p>PROJETO: <b>Rocket Blog<b/></p>
+<p>DIAS DE TRABALHO: <b>1</b></p>
+<p><b>PROJETO SEM MEDIA QUERRY</b></p>
